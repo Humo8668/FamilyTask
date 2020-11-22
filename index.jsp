@@ -36,7 +36,7 @@
         <label for="name" class="sr-only">Имя пользователя</label>
         <input type="text" id="name" name="name" class="form-control" placeholder="Имя пользователя" required autofocus>
         <label for="password" class="sr-only">Пароль</label>
-        <input type="passwords" id="password" class="form-control" placeholder="Пароль" required>
+        <input type="password" id="password" class="form-control" placeholder="Пароль" required>
         <div class="checkbox mb-3">
             <label>
                 <input type="checkbox" value="remember-me"> Запомнить меня
