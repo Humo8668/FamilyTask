@@ -1,0 +1,401 @@
+22-Nov-2020 18:16:23.944 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.40
+22-Nov-2020 18:16:23.949 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 12 2020 15:35:02 UTC
+22-Nov-2020 18:16:23.952 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.40.0
+22-Nov-2020 18:16:23.952 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+22-Nov-2020 18:16:23.952 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Версия ОС:             10.0
+22-Nov-2020 18:16:23.954 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Архитектура:           amd64
+22-Nov-2020 18:16:23.955 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jre1.8.0_191
+22-Nov-2020 18:16:23.955 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Версия JVM:            1.8.0_191-b12
+22-Nov-2020 18:16:23.955 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+22-Nov-2020 18:16:23.955 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\Projects\Home\MySocNet
+22-Nov-2020 18:16:23.955 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\Projects\Home\MySocNet
+22-Nov-2020 18:16:23.956 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\Projects\Home\MySocNet\conf\logging.properties
+22-Nov-2020 18:16:23.957 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+22-Nov-2020 18:16:23.957 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+22-Nov-2020 18:16:23.957 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+22-Nov-2020 18:16:23.964 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+22-Nov-2020 18:16:23.970 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\Projects\Home\MySocNet
+22-Nov-2020 18:16:23.971 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\Projects\Home\MySocNet
+22-Nov-2020 18:16:23.972 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\Projects\Home\MySocNet\temp
+22-Nov-2020 18:16:24.006 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.25] using APR version [1.7.0].
+22-Nov-2020 18:16:24.007 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+22-Nov-2020 18:16:24.009 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+22-Nov-2020 18:16:24.034 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+22-Nov-2020 18:16:24.357 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-3000"]
+22-Nov-2020 18:16:24.600 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [957] milliseconds
+22-Nov-2020 18:16:24.627 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+22-Nov-2020 18:16:24.628 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.40]
+22-Nov-2020 18:16:24.635 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [D:\Projects\Home\MySocNet\webapps\docs]
+22-Nov-2020 18:16:24.876 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Projects\Home\MySocNet\webapps\docs] has finished in [238] ms
+22-Nov-2020 18:16:24.876 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [D:\Projects\Home\MySocNet\webapps\examples]
+22-Nov-2020 18:16:25.373 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Projects\Home\MySocNet\webapps\examples] has finished in [497] ms
+22-Nov-2020 18:16:25.374 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [D:\Projects\Home\MySocNet\webapps\host-manager]
+22-Nov-2020 18:16:25.415 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Projects\Home\MySocNet\webapps\host-manager] has finished in [42] ms
+22-Nov-2020 18:16:25.416 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [D:\Projects\Home\MySocNet\webapps\manager]
+22-Nov-2020 18:16:25.453 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Projects\Home\MySocNet\webapps\manager] has finished in [37] ms
+22-Nov-2020 18:16:25.453 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [D:\Projects\Home\MySocNet\webapps\ROOT]
+22-Nov-2020 18:16:25.473 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Projects\Home\MySocNet\webapps\ROOT] has finished in [20] ms
+22-Nov-2020 18:16:25.481 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-3000"]
+22-Nov-2020 18:16:25.499 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [898] milliseconds
+22-Nov-2020 18:21:26.655 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.40
+22-Nov-2020 18:21:26.662 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 12 2020 15:35:02 UTC
+22-Nov-2020 18:21:26.663 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.40.0
+22-Nov-2020 18:21:26.663 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+22-Nov-2020 18:21:26.663 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Версия ОС:             10.0
+22-Nov-2020 18:21:26.664 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Архитектура:           amd64
+22-Nov-2020 18:21:26.665 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jre1.8.0_191
+22-Nov-2020 18:21:26.665 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Версия JVM:            1.8.0_191-b12
+22-Nov-2020 18:21:26.665 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+22-Nov-2020 18:21:26.665 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\Projects\Home\MySocNet
+22-Nov-2020 18:21:26.666 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\Projects\Home\MySocNet
+22-Nov-2020 18:21:26.667 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\Projects\Home\MySocNet\conf\logging.properties
+22-Nov-2020 18:21:26.667 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+22-Nov-2020 18:21:26.667 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+22-Nov-2020 18:21:26.667 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+22-Nov-2020 18:21:26.672 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+22-Nov-2020 18:21:26.674 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\Projects\Home\MySocNet
+22-Nov-2020 18:21:26.675 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\Projects\Home\MySocNet
+22-Nov-2020 18:21:26.675 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\Projects\Home\MySocNet\temp
+22-Nov-2020 18:21:26.681 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.25] using APR version [1.7.0].
+22-Nov-2020 18:21:26.681 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+22-Nov-2020 18:21:26.682 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+22-Nov-2020 18:21:26.690 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+22-Nov-2020 18:21:27.050 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-3000"]
+22-Nov-2020 18:21:27.273 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [977] milliseconds
+22-Nov-2020 18:21:27.295 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+22-Nov-2020 18:21:27.295 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.40]
+22-Nov-2020 18:21:27.302 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [D:\Projects\Home\MySocNet\webapps\docs]
+22-Nov-2020 18:21:27.485 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Projects\Home\MySocNet\webapps\docs] has finished in [182] ms
+22-Nov-2020 18:21:27.485 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [D:\Projects\Home\MySocNet\webapps\examples]
+22-Nov-2020 18:21:27.755 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Projects\Home\MySocNet\webapps\examples] has finished in [270] ms
+22-Nov-2020 18:21:27.755 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [D:\Projects\Home\MySocNet\webapps\host-manager]
+22-Nov-2020 18:21:27.784 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Projects\Home\MySocNet\webapps\host-manager] has finished in [29] ms
+22-Nov-2020 18:21:27.785 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [D:\Projects\Home\MySocNet\webapps\manager]
+22-Nov-2020 18:21:27.816 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Projects\Home\MySocNet\webapps\manager] has finished in [31] ms
+22-Nov-2020 18:21:27.816 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [D:\Projects\Home\MySocNet\webapps\ROOT]
+22-Nov-2020 18:21:27.836 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Projects\Home\MySocNet\webapps\ROOT] has finished in [20] ms
+22-Nov-2020 18:21:27.842 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-3000"]
+22-Nov-2020 18:21:27.852 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [579] milliseconds
+22-Nov-2020 18:23:05.529 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.40
+22-Nov-2020 18:23:05.535 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 12 2020 15:35:02 UTC
+22-Nov-2020 18:23:05.535 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.40.0
+22-Nov-2020 18:23:05.536 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+22-Nov-2020 18:23:05.536 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Версия ОС:             10.0
+22-Nov-2020 18:23:05.537 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Архитектура:           amd64
+22-Nov-2020 18:23:05.537 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jre1.8.0_191
+22-Nov-2020 18:23:05.537 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Версия JVM:            1.8.0_191-b12
+22-Nov-2020 18:23:05.538 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+22-Nov-2020 18:23:05.538 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\Projects\Home\MySocNet
+22-Nov-2020 18:23:05.538 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\Projects\Home\MySocNet
+22-Nov-2020 18:23:05.539 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\Projects\Home\MySocNet\conf\logging.properties
+22-Nov-2020 18:23:05.539 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+22-Nov-2020 18:23:05.539 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+22-Nov-2020 18:23:05.539 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+22-Nov-2020 18:23:05.540 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+22-Nov-2020 18:23:05.542 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\Projects\Home\MySocNet
+22-Nov-2020 18:23:05.543 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\Projects\Home\MySocNet
+22-Nov-2020 18:23:05.543 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\Projects\Home\MySocNet\temp
+22-Nov-2020 18:23:05.552 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.25] using APR version [1.7.0].
+22-Nov-2020 18:23:05.552 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+22-Nov-2020 18:23:05.553 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+22-Nov-2020 18:23:05.562 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+22-Nov-2020 18:23:05.905 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-3000"]
+22-Nov-2020 18:23:06.119 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [905] milliseconds
+22-Nov-2020 18:23:06.142 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+22-Nov-2020 18:23:06.142 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.40]
+22-Nov-2020 18:23:06.152 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [D:\Projects\Home\MySocNet\webapps\docs]
+22-Nov-2020 18:23:06.351 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Projects\Home\MySocNet\webapps\docs] has finished in [198] ms
+22-Nov-2020 18:23:06.351 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [D:\Projects\Home\MySocNet\webapps\examples]
+22-Nov-2020 18:23:06.626 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Projects\Home\MySocNet\webapps\examples] has finished in [275] ms
+22-Nov-2020 18:23:06.626 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [D:\Projects\Home\MySocNet\webapps\host-manager]
+22-Nov-2020 18:23:06.651 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Projects\Home\MySocNet\webapps\host-manager] has finished in [25] ms
+22-Nov-2020 18:23:06.652 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [D:\Projects\Home\MySocNet\webapps\manager]
+22-Nov-2020 18:23:06.673 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Projects\Home\MySocNet\webapps\manager] has finished in [21] ms
+22-Nov-2020 18:23:06.674 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [D:\Projects\Home\MySocNet\webapps\ROOT]
+22-Nov-2020 18:23:06.691 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Projects\Home\MySocNet\webapps\ROOT] has finished in [17] ms
+22-Nov-2020 18:23:06.696 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-3000"]
+22-Nov-2020 18:23:06.704 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [584] milliseconds
+22-Nov-2020 18:25:38.108 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.40
+22-Nov-2020 18:25:38.121 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 12 2020 15:35:02 UTC
+22-Nov-2020 18:25:38.122 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.40.0
+22-Nov-2020 18:25:38.122 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+22-Nov-2020 18:25:38.122 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Версия ОС:             10.0
+22-Nov-2020 18:25:38.124 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Архитектура:           amd64
+22-Nov-2020 18:25:38.124 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jre1.8.0_191
+22-Nov-2020 18:25:38.125 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Версия JVM:            1.8.0_191-b12
+22-Nov-2020 18:25:38.125 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+22-Nov-2020 18:25:38.125 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\Projects\Home\MySocNet
+22-Nov-2020 18:25:38.126 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\Projects\Home\MySocNet
+22-Nov-2020 18:25:38.127 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\Projects\Home\MySocNet\conf\logging.properties
+22-Nov-2020 18:25:38.127 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+22-Nov-2020 18:25:38.127 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+22-Nov-2020 18:25:38.128 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+22-Nov-2020 18:25:38.136 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+22-Nov-2020 18:25:38.137 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\Projects\Home\MySocNet
+22-Nov-2020 18:25:38.138 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\Projects\Home\MySocNet
+22-Nov-2020 18:25:38.138 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\Projects\Home\MySocNet\temp
+22-Nov-2020 18:25:38.144 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.25] using APR version [1.7.0].
+22-Nov-2020 18:25:38.144 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+22-Nov-2020 18:25:38.145 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+22-Nov-2020 18:25:38.156 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+22-Nov-2020 18:25:38.496 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-3000"]
+22-Nov-2020 18:25:38.705 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [898] milliseconds
+22-Nov-2020 18:25:38.724 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+22-Nov-2020 18:25:38.725 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.40]
+22-Nov-2020 18:25:38.732 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [D:\Projects\Home\MySocNet\webapps\docs]
+22-Nov-2020 18:25:38.909 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Projects\Home\MySocNet\webapps\docs] has finished in [176] ms
+22-Nov-2020 18:25:38.909 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [D:\Projects\Home\MySocNet\webapps\examples]
+22-Nov-2020 18:25:39.170 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Projects\Home\MySocNet\webapps\examples] has finished in [260] ms
+22-Nov-2020 18:25:39.170 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [D:\Projects\Home\MySocNet\webapps\host-manager]
+22-Nov-2020 18:25:39.198 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Projects\Home\MySocNet\webapps\host-manager] has finished in [28] ms
+22-Nov-2020 18:25:39.199 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [D:\Projects\Home\MySocNet\webapps\manager]
+22-Nov-2020 18:25:39.228 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Projects\Home\MySocNet\webapps\manager] has finished in [30] ms
+22-Nov-2020 18:25:39.228 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [D:\Projects\Home\MySocNet\webapps\ROOT]
+22-Nov-2020 18:25:39.249 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Projects\Home\MySocNet\webapps\ROOT] has finished in [21] ms
+22-Nov-2020 18:25:39.256 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-3000"]
+22-Nov-2020 18:25:39.265 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [560] milliseconds
+22-Nov-2020 18:29:33.486 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.40
+22-Nov-2020 18:29:33.490 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 12 2020 15:35:02 UTC
+22-Nov-2020 18:29:33.491 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.40.0
+22-Nov-2020 18:29:33.491 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+22-Nov-2020 18:29:33.492 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Версия ОС:             10.0
+22-Nov-2020 18:29:33.493 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Архитектура:           amd64
+22-Nov-2020 18:29:33.494 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jre1.8.0_191
+22-Nov-2020 18:29:33.494 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Версия JVM:            1.8.0_191-b12
+22-Nov-2020 18:29:33.494 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+22-Nov-2020 18:29:33.495 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\Projects\Home\MySocNet
+22-Nov-2020 18:29:33.495 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\Projects\Home\MySocNet
+22-Nov-2020 18:29:33.496 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\Projects\Home\MySocNet\conf\logging.properties
+22-Nov-2020 18:29:33.496 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+22-Nov-2020 18:29:33.496 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+22-Nov-2020 18:29:33.497 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+22-Nov-2020 18:29:33.497 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+22-Nov-2020 18:29:33.498 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\Projects\Home\MySocNet
+22-Nov-2020 18:29:33.499 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\Projects\Home\MySocNet
+22-Nov-2020 18:29:33.499 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\Projects\Home\MySocNet\temp
+22-Nov-2020 18:29:33.506 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.25] using APR version [1.7.0].
+22-Nov-2020 18:29:33.507 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+22-Nov-2020 18:29:33.508 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+22-Nov-2020 18:29:33.520 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+22-Nov-2020 18:29:33.847 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-3000"]
+22-Nov-2020 18:29:34.080 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [961] milliseconds
+22-Nov-2020 18:29:34.099 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+22-Nov-2020 18:29:34.099 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.40]
+22-Nov-2020 18:29:34.106 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [D:\Projects\Home\MySocNet\webapps\docs]
+22-Nov-2020 18:29:34.279 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Projects\Home\MySocNet\webapps\docs] has finished in [172] ms
+22-Nov-2020 18:29:34.279 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [D:\Projects\Home\MySocNet\webapps\examples]
+22-Nov-2020 18:29:34.544 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Projects\Home\MySocNet\webapps\examples] has finished in [265] ms
+22-Nov-2020 18:29:34.545 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [D:\Projects\Home\MySocNet\webapps\host-manager]
+22-Nov-2020 18:29:34.574 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Projects\Home\MySocNet\webapps\host-manager] has finished in [29] ms
+22-Nov-2020 18:29:34.575 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [D:\Projects\Home\MySocNet\webapps\manager]
+22-Nov-2020 18:29:34.604 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Projects\Home\MySocNet\webapps\manager] has finished in [29] ms
+22-Nov-2020 18:29:34.604 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [D:\Projects\Home\MySocNet\webapps\ROOT]
+22-Nov-2020 18:29:34.623 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Projects\Home\MySocNet\webapps\ROOT] has finished in [19] ms
+22-Nov-2020 18:29:34.628 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-3000"]
+22-Nov-2020 18:29:34.637 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [556] milliseconds
+22-Nov-2020 18:30:06.000 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.40
+22-Nov-2020 18:30:06.008 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 12 2020 15:35:02 UTC
+22-Nov-2020 18:30:06.008 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.40.0
+22-Nov-2020 18:30:06.009 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+22-Nov-2020 18:30:06.009 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Версия ОС:             10.0
+22-Nov-2020 18:30:06.011 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Архитектура:           amd64
+22-Nov-2020 18:30:06.011 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jre1.8.0_191
+22-Nov-2020 18:30:06.012 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Версия JVM:            1.8.0_191-b12
+22-Nov-2020 18:30:06.012 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+22-Nov-2020 18:30:06.013 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\Projects\Home\MySocNet
+22-Nov-2020 18:30:06.013 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\Projects\Home\MySocNet
+22-Nov-2020 18:30:06.014 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\Projects\Home\MySocNet\conf\logging.properties
+22-Nov-2020 18:30:06.014 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+22-Nov-2020 18:30:06.014 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+22-Nov-2020 18:30:06.014 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+22-Nov-2020 18:30:06.021 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+22-Nov-2020 18:30:06.023 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\Projects\Home\MySocNet
+22-Nov-2020 18:30:06.024 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\Projects\Home\MySocNet
+22-Nov-2020 18:30:06.025 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\Projects\Home\MySocNet\temp
+22-Nov-2020 18:30:06.032 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.25] using APR version [1.7.0].
+22-Nov-2020 18:30:06.033 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+22-Nov-2020 18:30:06.034 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+22-Nov-2020 18:30:06.045 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+22-Nov-2020 18:30:06.386 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-3000"]
+22-Nov-2020 18:30:06.601 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [945] milliseconds
+22-Nov-2020 18:30:06.621 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+22-Nov-2020 18:30:06.622 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.40]
+22-Nov-2020 18:30:06.629 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [D:\Projects\Home\MySocNet\webapps\docs]
+22-Nov-2020 18:30:06.804 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Projects\Home\MySocNet\webapps\docs] has finished in [174] ms
+22-Nov-2020 18:30:06.804 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [D:\Projects\Home\MySocNet\webapps\examples]
+22-Nov-2020 18:30:07.064 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Projects\Home\MySocNet\webapps\examples] has finished in [260] ms
+22-Nov-2020 18:30:07.065 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [D:\Projects\Home\MySocNet\webapps\host-manager]
+22-Nov-2020 18:30:07.095 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Projects\Home\MySocNet\webapps\host-manager] has finished in [30] ms
+22-Nov-2020 18:30:07.096 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [D:\Projects\Home\MySocNet\webapps\manager]
+22-Nov-2020 18:30:07.124 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Projects\Home\MySocNet\webapps\manager] has finished in [28] ms
+22-Nov-2020 18:30:07.124 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [D:\Projects\Home\MySocNet\webapps\ROOT]
+22-Nov-2020 18:30:07.144 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Projects\Home\MySocNet\webapps\ROOT] has finished in [19] ms
+22-Nov-2020 18:30:07.148 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-3000"]
+22-Nov-2020 18:30:07.157 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [555] milliseconds
+22-Nov-2020 18:31:57.865 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.40
+22-Nov-2020 18:31:57.873 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 12 2020 15:35:02 UTC
+22-Nov-2020 18:31:57.874 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.40.0
+22-Nov-2020 18:31:57.874 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+22-Nov-2020 18:31:57.875 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Версия ОС:             10.0
+22-Nov-2020 18:31:57.876 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Архитектура:           amd64
+22-Nov-2020 18:31:57.876 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jre1.8.0_191
+22-Nov-2020 18:31:57.876 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Версия JVM:            1.8.0_191-b12
+22-Nov-2020 18:31:57.877 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+22-Nov-2020 18:31:57.877 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\Projects\Home\MySocNet
+22-Nov-2020 18:31:57.877 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\Projects\Home\MySocNet
+22-Nov-2020 18:31:57.879 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\Projects\Home\MySocNet\conf\logging.properties
+22-Nov-2020 18:31:57.879 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+22-Nov-2020 18:31:57.879 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+22-Nov-2020 18:31:57.880 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+22-Nov-2020 18:31:57.880 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+22-Nov-2020 18:31:57.881 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\Projects\Home\MySocNet
+22-Nov-2020 18:31:57.886 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\Projects\Home\MySocNet
+22-Nov-2020 18:31:57.888 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\Projects\Home\MySocNet\temp
+22-Nov-2020 18:31:57.893 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.25] using APR version [1.7.0].
+22-Nov-2020 18:31:57.894 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+22-Nov-2020 18:31:57.896 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+22-Nov-2020 18:31:57.904 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+22-Nov-2020 18:31:58.305 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-3000"]
+22-Nov-2020 18:31:58.530 SEVERE [main] org.apache.catalina.util.LifecycleBase.handleSubClassException Failed to initialize component [Connector[HTTP/1.1-3000]]
+	org.apache.catalina.LifecycleException: Protocol handler initialization failed
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1042)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.core.StandardService.initInternal(StandardService.java:533)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:1057)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:724)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:746)
+		at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+		at java.lang.reflect.Method.invoke(Unknown Source)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:302)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:472)
+	Caused by: java.net.BindException: Address already in use: bind
+		at sun.nio.ch.Net.bind0(Native Method)
+		at sun.nio.ch.Net.bind(Unknown Source)
+		at sun.nio.ch.Net.bind(Unknown Source)
+		at sun.nio.ch.ServerSocketChannelImpl.bind(Unknown Source)
+		at sun.nio.ch.ServerSocketAdaptor.bind(Unknown Source)
+		at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:228)
+		at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:211)
+		at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1141)
+		at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1154)
+		at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:592)
+		at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:80)
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1039)
+		... 13 more
+22-Nov-2020 18:31:58.532 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1013] milliseconds
+22-Nov-2020 18:31:58.556 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+22-Nov-2020 18:31:58.556 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.40]
+22-Nov-2020 18:31:58.564 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [D:\Projects\Home\MySocNet\webapps\docs]
+22-Nov-2020 18:31:58.743 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Projects\Home\MySocNet\webapps\docs] has finished in [178] ms
+22-Nov-2020 18:31:58.744 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [D:\Projects\Home\MySocNet\webapps\examples]
+22-Nov-2020 18:31:59.129 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Projects\Home\MySocNet\webapps\examples] has finished in [386] ms
+22-Nov-2020 18:31:59.129 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [D:\Projects\Home\MySocNet\webapps\host-manager]
+22-Nov-2020 18:31:59.172 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Projects\Home\MySocNet\webapps\host-manager] has finished in [43] ms
+22-Nov-2020 18:31:59.172 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [D:\Projects\Home\MySocNet\webapps\manager]
+22-Nov-2020 18:31:59.201 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Projects\Home\MySocNet\webapps\manager] has finished in [29] ms
+22-Nov-2020 18:31:59.201 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [D:\Projects\Home\MySocNet\webapps\ROOT]
+22-Nov-2020 18:31:59.228 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Projects\Home\MySocNet\webapps\ROOT] has finished in [27] ms
+22-Nov-2020 18:31:59.235 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [699] milliseconds
+22-Nov-2020 18:31:59.241 SEVERE [main] org.apache.catalina.core.StandardServer.await Failed to create server shutdown socket on address [localhost] and port [8005] (base port [8005] and offset [0])
+	java.net.BindException: Address already in use: JVM_Bind
+		at java.net.DualStackPlainSocketImpl.bind0(Native Method)
+		at java.net.DualStackPlainSocketImpl.socketBind(Unknown Source)
+		at java.net.AbstractPlainSocketImpl.bind(Unknown Source)
+		at java.net.PlainSocketImpl.bind(Unknown Source)
+		at java.net.ServerSocket.bind(Unknown Source)
+		at java.net.ServerSocket.<init>(Unknown Source)
+		at org.apache.catalina.core.StandardServer.await(StandardServer.java:584)
+		at org.apache.catalina.startup.Catalina.await(Catalina.java:864)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:810)
+		at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+		at java.lang.reflect.Method.invoke(Unknown Source)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:342)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:473)
+22-Nov-2020 18:31:59.242 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-3000"]
+22-Nov-2020 18:31:59.243 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+22-Nov-2020 18:31:59.269 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-3000"]
+22-Nov-2020 18:31:59.271 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-3000"]
+22-Nov-2020 18:35:50.176 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.40
+22-Nov-2020 18:35:50.180 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 12 2020 15:35:02 UTC
+22-Nov-2020 18:35:50.180 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.40.0
+22-Nov-2020 18:35:50.181 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+22-Nov-2020 18:35:50.181 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Версия ОС:             10.0
+22-Nov-2020 18:35:50.182 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Архитектура:           amd64
+22-Nov-2020 18:35:50.182 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jre1.8.0_191
+22-Nov-2020 18:35:50.182 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Версия JVM:            1.8.0_191-b12
+22-Nov-2020 18:35:50.183 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+22-Nov-2020 18:35:50.184 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\Projects\Home\MySocNet
+22-Nov-2020 18:35:50.185 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\Projects\Home\MySocNet
+22-Nov-2020 18:35:50.188 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\Projects\Home\MySocNet\conf\logging.properties
+22-Nov-2020 18:35:50.189 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+22-Nov-2020 18:35:50.193 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+22-Nov-2020 18:35:50.195 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+22-Nov-2020 18:35:50.202 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+22-Nov-2020 18:35:50.202 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\Projects\Home\MySocNet
+22-Nov-2020 18:35:50.203 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\Projects\Home\MySocNet
+22-Nov-2020 18:35:50.203 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\Projects\Home\MySocNet\temp
+22-Nov-2020 18:35:50.207 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.25] using APR version [1.7.0].
+22-Nov-2020 18:35:50.208 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+22-Nov-2020 18:35:50.209 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+22-Nov-2020 18:35:50.218 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+22-Nov-2020 18:35:50.580 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-3000"]
+22-Nov-2020 18:35:50.828 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1019] milliseconds
+22-Nov-2020 18:35:50.851 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+22-Nov-2020 18:35:50.852 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.40]
+22-Nov-2020 18:35:50.859 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [D:\Projects\Home\MySocNet\webapps\docs]
+22-Nov-2020 18:35:51.038 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Projects\Home\MySocNet\webapps\docs] has finished in [177] ms
+22-Nov-2020 18:35:51.039 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [D:\Projects\Home\MySocNet\webapps\examples]
+22-Nov-2020 18:35:51.322 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Projects\Home\MySocNet\webapps\examples] has finished in [283] ms
+22-Nov-2020 18:35:51.322 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [D:\Projects\Home\MySocNet\webapps\host-manager]
+22-Nov-2020 18:35:51.350 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Projects\Home\MySocNet\webapps\host-manager] has finished in [27] ms
+22-Nov-2020 18:35:51.350 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [D:\Projects\Home\MySocNet\webapps\manager]
+22-Nov-2020 18:35:51.373 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Projects\Home\MySocNet\webapps\manager] has finished in [23] ms
+22-Nov-2020 18:35:51.373 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [D:\Projects\Home\MySocNet\webapps\ROOT]
+22-Nov-2020 18:35:51.393 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Projects\Home\MySocNet\webapps\ROOT] has finished in [20] ms
+22-Nov-2020 18:35:51.397 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-3000"]
+22-Nov-2020 18:35:51.407 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [578] milliseconds
+22-Nov-2020 18:42:22.168 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.40
+22-Nov-2020 18:42:22.176 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 12 2020 15:35:02 UTC
+22-Nov-2020 18:42:22.176 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.40.0
+22-Nov-2020 18:42:22.176 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+22-Nov-2020 18:42:22.176 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Версия ОС:             10.0
+22-Nov-2020 18:42:22.180 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Архитектура:           amd64
+22-Nov-2020 18:42:22.180 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jre1.8.0_191
+22-Nov-2020 18:42:22.180 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Версия JVM:            1.8.0_191-b12
+22-Nov-2020 18:42:22.180 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+22-Nov-2020 18:42:22.180 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\Projects\Home\MySocNet
+22-Nov-2020 18:42:22.180 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\Projects\Home\MySocNet
+22-Nov-2020 18:42:22.180 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\Projects\Home\MySocNet\conf\logging.properties
+22-Nov-2020 18:42:22.180 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+22-Nov-2020 18:42:22.180 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+22-Nov-2020 18:42:22.180 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+22-Nov-2020 18:42:22.188 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+22-Nov-2020 18:42:22.192 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\Projects\Home\MySocNet
+22-Nov-2020 18:42:22.192 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\Projects\Home\MySocNet
+22-Nov-2020 18:42:22.192 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\Projects\Home\MySocNet\temp
+22-Nov-2020 18:42:22.200 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.25] using APR version [1.7.0].
+22-Nov-2020 18:42:22.200 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+22-Nov-2020 18:42:22.200 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+22-Nov-2020 18:42:22.208 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+22-Nov-2020 18:42:22.536 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-3000"]
+22-Nov-2020 18:42:22.752 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [964] milliseconds
+22-Nov-2020 18:42:22.776 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+22-Nov-2020 18:42:22.776 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.40]
+22-Nov-2020 18:42:22.776 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [D:\Projects\Home\MySocNet\webapps\docs]
+22-Nov-2020 18:42:22.960 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Projects\Home\MySocNet\webapps\docs] has finished in [176] ms
+22-Nov-2020 18:42:22.960 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [D:\Projects\Home\MySocNet\webapps\examples]
+22-Nov-2020 18:42:23.230 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Projects\Home\MySocNet\webapps\examples] has finished in [270] ms
+22-Nov-2020 18:42:23.230 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [D:\Projects\Home\MySocNet\webapps\host-manager]
+22-Nov-2020 18:42:23.254 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Projects\Home\MySocNet\webapps\host-manager] has finished in [24] ms
+22-Nov-2020 18:42:23.254 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [D:\Projects\Home\MySocNet\webapps\manager]
+22-Nov-2020 18:42:23.278 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Projects\Home\MySocNet\webapps\manager] has finished in [24] ms
+22-Nov-2020 18:42:23.278 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [D:\Projects\Home\MySocNet\webapps\ROOT]
+22-Nov-2020 18:42:23.294 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Projects\Home\MySocNet\webapps\ROOT] has finished in [16] ms
+22-Nov-2020 18:42:23.302 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-3000"]
+22-Nov-2020 18:42:23.310 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [556] milliseconds

@@ -28,9 +28,14 @@
         }
       }
     </style>
-    
 </head>
 <body class="text-center">
+    <%
+      if(request.getMethod().equalsIgnoreCase("post"))
+        out.print(request);
+      
+      out.print(request.getMethod());
+    %>
     <form class="form-signin" method="POST" action="login()">
         <h1 class="h3 mb-3 font-weight-normal">Авторизуйтесь</h1>
         <label for="name" class="sr-only">Имя пользователя</label>
