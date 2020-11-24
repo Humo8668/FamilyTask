@@ -560,3 +560,42 @@
 24-Nov-2020 09:40:16.140 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
 24-Nov-2020 09:40:16.157 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-3000"]
 24-Nov-2020 09:40:16.159 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-3000"]
+24-Nov-2020 10:45:31.704 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.40
+24-Nov-2020 10:45:31.706 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 12 2020 15:35:02 UTC
+24-Nov-2020 10:45:31.710 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.40.0
+24-Nov-2020 10:45:31.710 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+24-Nov-2020 10:45:31.711 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Версия ОС:             10.0
+24-Nov-2020 10:45:31.712 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Архитектура:           amd64
+24-Nov-2020 10:45:31.712 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jre1.8.0_191
+24-Nov-2020 10:45:31.712 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Версия JVM:            1.8.0_191-b12
+24-Nov-2020 10:45:31.713 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+24-Nov-2020 10:45:31.713 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\Projects\Home\MySocNet
+24-Nov-2020 10:45:31.713 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\Projects\Home\MySocNet
+24-Nov-2020 10:45:31.713 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\Projects\Home\MySocNet\conf\logging.properties
+24-Nov-2020 10:45:31.714 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+24-Nov-2020 10:45:31.714 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+24-Nov-2020 10:45:31.714 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+24-Nov-2020 10:45:31.718 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+24-Nov-2020 10:45:31.718 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\Projects\Home\MySocNet
+24-Nov-2020 10:45:31.719 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\Projects\Home\MySocNet
+24-Nov-2020 10:45:31.726 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\Projects\Home\MySocNet\temp
+24-Nov-2020 10:45:31.747 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.25] using APR version [1.7.0].
+24-Nov-2020 10:45:31.748 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+24-Nov-2020 10:45:31.749 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+24-Nov-2020 10:45:31.754 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+24-Nov-2020 10:45:32.038 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-3000"]
+24-Nov-2020 10:45:32.270 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [756] milliseconds
+24-Nov-2020 10:45:32.297 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+24-Nov-2020 10:45:32.297 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.40]
+24-Nov-2020 10:45:32.304 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [D:\Projects\Home\MySocNet\webapps\docs]
+24-Nov-2020 10:45:32.505 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Projects\Home\MySocNet\webapps\docs] has finished in [198] ms
+24-Nov-2020 10:45:32.505 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [D:\Projects\Home\MySocNet\webapps\examples]
+24-Nov-2020 10:45:32.936 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Projects\Home\MySocNet\webapps\examples] has finished in [431] ms
+24-Nov-2020 10:45:32.936 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [D:\Projects\Home\MySocNet\webapps\host-manager]
+24-Nov-2020 10:45:32.963 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Projects\Home\MySocNet\webapps\host-manager] has finished in [27] ms
+24-Nov-2020 10:45:32.964 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [D:\Projects\Home\MySocNet\webapps\manager]
+24-Nov-2020 10:45:32.988 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Projects\Home\MySocNet\webapps\manager] has finished in [24] ms
+24-Nov-2020 10:45:32.989 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [D:\Projects\Home\MySocNet\webapps\ROOT]
+24-Nov-2020 10:45:33.009 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Projects\Home\MySocNet\webapps\ROOT] has finished in [19] ms
+24-Nov-2020 10:45:33.013 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-3000"]
+24-Nov-2020 10:45:33.022 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [752] milliseconds
