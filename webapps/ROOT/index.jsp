@@ -32,7 +32,12 @@
 <body class="text-center">
     <%
       if(request.getMethod().equalsIgnoreCase("post"))
-        out.print(request);
+      {
+        String name = request.getParameter("name");
+        String password = request.getParameter("password");
+
+        
+      }
       
       out.print(request.getMethod());
     %>
