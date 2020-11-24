@@ -1,5 +1,5 @@
-<%@ page session="false" pageEncoding="utf-8" contentType="text/html; charset=UTF-8" %>
-
+<%@ page session="true" pageEncoding="utf-8" contentType="text/html; charset=UTF-8" %>
+<%@ page import="java.sql.*" %>
 <html>
 <head>
     <meta charset="utf-8">
@@ -9,9 +9,11 @@
     <meta name="generator" content="Jekyll v4.1.1">
     <title>Signin Template · Bootstrap</title>
     <title>Login page</title>
-    <link href="public/css/bootstrap.min.css" rel="stylesheet">
-    <link href="public/css/signin_signup_style.css" rel="stylesheet">
-
+    <link href="/public/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/public/css/signin_signup_style.css" rel="stylesheet">
+    <script src="/public/js/bootstrap.min.js"></script>
+    <script src="/public/js/jquery-3.5.1.min.js"></script>
+    <script src="/public/js/helper.js"></script>
     <style>
       .bd-placeholder-img {
         font-size: 1.125rem;
@@ -36,17 +38,19 @@
         String name = request.getParameter("name");
         String password = request.getParameter("password");
 
-        
+        out.print(name);
+        out.print(password);
+        response.setStatus(200);
       }
       
       out.print(request.getMethod());
     %>
-    <form class="form-signin" method="POST" action="login()">
+    <form class="form-signin" name='login-form' method="POST" onsubmit="login('login-form')">
         <h1 class="h3 mb-3 font-weight-normal">Авторизуйтесь</h1>
         <label for="name" class="sr-only">Имя пользователя</label>
         <input type="text" id="name" name="name" class="form-control" placeholder="Имя пользователя" required autofocus>
         <label for="password" class="sr-only">Пароль</label>
-        <input type="password" id="password" class="form-control" placeholder="Пароль" required>
+        <input type="password" id="password" name="password" class="form-control" placeholder="Пароль" required>
         <div class="checkbox mb-3">
             <label>
                 <input type="checkbox" value="remember-me"> Запомнить меня
@@ -59,8 +63,33 @@
 </body>
 
 <script>
-    function login() {
-        
+    function login(loginFormName) 
+    {
+        var reqBody = {};
+        jqForm = $('form[name="' + loginFormName + '"]')[0];
+        if(isUndef(jqForm))
+          return;
+        $.each(jqForm('input'), function(i, input)
+        {
+          if(!isUndef(input.attr("name")) && input.attr("name").toString().length > 0)
+            reqBody[input.attr("name").toString()] = input.val();
+        });
+        var requestBody = {};
+        $.ajax({
+          url: '/',
+          settings: {
+            async: true,
+            data: reqBody,
+            success: function(data, textStatus, jqXHR)
+            {
+              alert("success");
+            },
+            error: function(jqXHR, textStatus, errorThrown)
+            {
+              alert(errorThrown);
+            }
+          }
+        });
     }
 </script>
 </html>
