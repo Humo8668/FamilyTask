@@ -7,7 +7,6 @@
     <meta name="description" content="">
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Jekyll v4.1.1">
-    <title>Signin Template · Bootstrap</title>
     <title>Login page</title>
     <link href="/public/css/bootstrap.min.css" rel="stylesheet">
     <link href="/public/css/signin_signup_style.css" rel="stylesheet">
@@ -37,7 +36,8 @@
       {
         String name = request.getParameter("name");
         String password = request.getParameter("password");
-
+        if(!response.containsHeader("token"))
+          response.addHeader("token", "");
         out.print(name);
         out.print(password);
         response.setStatus(200);
