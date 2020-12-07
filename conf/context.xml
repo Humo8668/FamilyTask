@@ -24,6 +24,15 @@
     <WatchedResource>WEB-INF/tomcat-web.xml</WatchedResource>
     <WatchedResource>${catalina.base}/conf/web.xml</WatchedResource>
 
+    <Environment name="db_host"     value="localhost"   type="java.lang.String"/>
+    <Environment name="db_port"     value="5433"        type="java.lang.String"/>
+    <Environment name="db_name"     value="FamilyTask"  type="java.lang.String"/>
+    <Environment name="db_username" value="userName"    type="java.lang.String"/>
+    <Environment name="db_password" value="123"         type="java.lang.String"/>
+    
+    <Environment name="log_filenameprefix" value="debug_log" type="java.lang.String"/>
+    <Environment name="log_path" value="/logs/" type="java.lang.String"/>
+    
     <!-- Uncomment this to disable session persistence across Tomcat restarts -->
     <!--
     <Manager pathname="" />

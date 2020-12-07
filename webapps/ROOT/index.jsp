@@ -31,21 +31,7 @@
     </style>
 </head>
 <body class="text-center">
-    <%
-      if(request.getMethod().equalsIgnoreCase("post"))
-      {
-        String name = request.getParameter("name");
-        String password = request.getParameter("password");
-        if(!response.containsHeader("token"))
-          response.addHeader("token", "");
-        out.print(name);
-        out.print(password);
-        response.setStatus(200);
-      }
-      
-      out.print(request.getMethod());
-    %>
-    <form class="form-signin" name='login-form' method="POST" onsubmit="login('login-form')">
+    <form class="form-signin" name='login-form' method="POST" onsubmit="event.preventDefault(); login('login-form')">
         <h1 class="h3 mb-3 font-weight-normal">Авторизуйтесь</h1>
         <label for="name" class="sr-only">Имя пользователя</label>
         <input type="text" id="name" name="name" class="form-control" placeholder="Имя пользователя" required autofocus>
@@ -53,7 +39,7 @@
         <input type="password" id="password" name="password" class="form-control" placeholder="Пароль" required>
         <div class="checkbox mb-3">
             <label>
-                <input type="checkbox" value="remember-me"> Запомнить меня
+                <input type="checkbox" id="remember" name="remember" value="remember-me"> Запомнить меня
             </label>
         </div>
         <button class="btn btn-lg btn-primary btn-block" type="submit">Войти</button>
@@ -63,23 +49,22 @@
 </body>
 
 <script>
-    function login(loginFormName) 
+    function login(loginFormName)
     {
-        var reqBody = {};
-        jqForm = $('form[name="' + loginFormName + '"]')[0];
-        if(isUndef(jqForm))
-          return;
-        $.each(jqForm('input'), function(i, input)
-        {
-          if(!isUndef(input.attr("name")) && input.attr("name").toString().length > 0)
-            reqBody[input.attr("name").toString()] = input.val();
-        });
-        var requestBody = {};
+        var name = $("input#name").val();
+        var password = $("input#password").val();
+        var remember = $("input#remember").is(":checked");
+        
         $.ajax({
           url: '/',
+          method: 'post',
+          headers:{
+            "name" : name,
+            "password" : password,
+            "remember" : remember
+          },
           settings: {
             async: true,
-            data: reqBody,
             success: function(data, textStatus, jqXHR)
             {
               alert("success");

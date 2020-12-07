@@ -6,10 +6,11 @@
     "configurations": [
         {
             "type": "java",
-            "name": "CodeLens (Launch) - myclass",
+            "name": "Launch",
             "request": "launch",
-            "mainClass": "myclass",
-            "projectName": "FamilyTask_aba0e23d"
+            "projectName": "FamilyTask",
+            "classpath": ["D:\\Projects\\Home\\FamilyTask\\webapps\\ROOT\\WEB-INF\\classes\\","D:\\Projects\\Home\\FamilyTask\\lib\\servlet-api.jar"],
+            "jdkPath": "${env:JAVA_HOME}/bin",
         },
         {
             "type": "pwa-chrome",

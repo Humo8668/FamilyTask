@@ -5,8 +5,19 @@
     "tasks": [
         {
             "label": "startup",
+            "dependsOn": [
+                "run"
+            ]
+        },
+        {
+            "label": "run",
             "type": "shell",
             "command": "${workspaceFolder}/bin/startup.bat"
+        },
+        {
+            "label": "compile_classes",
+            "type": "shell",
+            "command": "compile.bat"
         }
     ]
 }
