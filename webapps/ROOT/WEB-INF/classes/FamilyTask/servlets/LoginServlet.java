@@ -1,16 +1,13 @@
 package FamilyTask.servlets;
 
 import java.io.IOException;
-import java.io.PrintWriter;
-import java.sql.Connection;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import FamilyTask.lib.Database;
-import FamilyTask.lib.Log;
+import FamilyTask.lib.*;
 
 public class LoginServlet extends HttpServlet 
 {
@@ -22,8 +19,11 @@ public class LoginServlet extends HttpServlet
         String name = request.getHeader("name");
         String password = request.getHeader("password");
         Boolean remember = Boolean.parseBoolean(request.getHeader("remember"));
-        java.sql.Connection conn = Database.Connect();
-        System.out.println(conn);
+        //java.sql.Connection conn = Database.Connect();
+        //System.out.println(conn);
         System.out.println("123123");
+        DataTable dt = Database.getTable("Users");
+        
+        System.out.println(dt);
     }
 }

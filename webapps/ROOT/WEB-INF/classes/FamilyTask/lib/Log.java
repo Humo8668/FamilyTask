@@ -1,6 +1,5 @@
 package FamilyTask.lib;
 
-import java.io.IOException;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.*;
@@ -11,10 +10,12 @@ public class Log
 {
     private static Boolean isInit = false;
     private static Logger LOGGER = null;
-    private static String loggerName = "General";
-    private static Handler handler = null;
+    //private static String loggerName = "General";
+    private static Handler fileHandler = null;
+    private static ConsoleHandler consoleHandler = null;
     private static String logFileNamePrefix = "";
     private static String logFilePath = "";
+    private static SimpleFormatter sFormatter = null;
 
     private static void Init()
     {
@@ -42,10 +43,12 @@ public class Log
             LocalDateTime now = LocalDateTime.now();
             LOGGER  = Logger.getLogger("GlobalLogger");
             LOGGER.setLevel(Level.ALL);
-            handler = new FileHandler(Log.logFilePath + "/" + Log.logFileNamePrefix + "_" + dtf.format(now) + ".log", true) ;
-            LOGGER.addHandler(handler);
-            handler.setLevel(Level.ALL);
-            handler.setFormatter(new SimpleFormatter() {
+            fileHandler = new FileHandler(Log.logFilePath + "/" + Log.logFileNamePrefix + "_" + dtf.format(now) + ".log", true) ;
+            consoleHandler = new ConsoleHandler();
+            LOGGER.addHandler(fileHandler);
+            LOGGER.addHandler(consoleHandler);
+            
+            sFormatter = new SimpleFormatter() {
                 private static final String format = "[%1$tF %1$tT] [%2$-7s] %3$s %n";
       
                 @Override
@@ -56,7 +59,9 @@ public class Log
                             lr.getMessage()
                     );
                 }
-            });
+            };
+            fileHandler.setFormatter(sFormatter);
+            consoleHandler.setFormatter(sFormatter);
         }
         catch(Exception exc)
         {
@@ -72,8 +77,8 @@ public class Log
         if(!isInit)
             Log.Init();
         
-        System.out.println("Info: " + message);
-        LOGGER.info("Info: " + message);
+        //System.out.println("Info: " + message);
+        LOGGER.info(message);
     }
 
     public static void Error(String message)
@@ -81,7 +86,7 @@ public class Log
         if(!isInit)
             Log.Init();
 
-        System.out.println("Error: " + message);
+        //System.out.println("Error: " + message);
         LOGGER.warning("Error: " + message);
     }
 
