@@ -265,14 +265,18 @@ public class DataTable {
     {
         LinkedList<LinkedList<Object>> rowsList = new LinkedList<LinkedList<Object>>();
         ArrayList<Object> row = new ArrayList<Object>(this.getRowLength());
-        for (Collection<Object> rowEl_it : listOfRows) 
+        for(int i = 0; i < this.getRowLength(); i++)
+            row.add("");
+
+        for (Collection<Object> rw : listOfRows) 
         {
-            for(Integer i = 0; i < this.getRowLength(); i++)
+            Iterator<Object> it = rw.iterator();
+            for(int i = 0; i < this.getRowLength(); i++)
             {
-                if(i < rowEl_it.size())
-                    row.set(i, rowEl_it);
+                if(i < rw.size())
+                    row.set(i, it.next());
                 else
-                    row.add(i, "");
+                    row.set(i, "");
             }
             rowsList.add(new LinkedList<Object>(row));
         }
@@ -368,5 +372,5 @@ public class DataTable {
         }
 
         return table;
-    } 
+    }
 }

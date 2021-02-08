@@ -53,7 +53,7 @@
         var remember = $("input#remember").is(":checked");
         
         $.ajax({
-          url: '/',
+          url: '/login',
           method: 'post',
           headers:{
             "name" : name,

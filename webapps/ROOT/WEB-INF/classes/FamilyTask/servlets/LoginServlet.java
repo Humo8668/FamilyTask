@@ -19,9 +19,7 @@ public class LoginServlet extends HttpServlet
         String name = request.getHeader("name");
         String password = request.getHeader("password");
         Boolean remember = Boolean.parseBoolean(request.getHeader("remember"));
-        //java.sql.Connection conn = Database.Connect();
-        //System.out.println(conn);
-        System.out.println("123123");
+        
         DataTable dt = Database.getTable("Users");
         
         System.out.println(dt);

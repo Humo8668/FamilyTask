@@ -65,27 +65,61 @@ public class Database {
         return conn;
     }
 
-    static ResultSet ExecuteSelect(String sql)
+    static DataTable ExecuteSelect(String sql)
     {
         Connection conn = Database.Connect();
+        DataTable dt = null;
         if(conn == null)
             return null;
-        System.out.println(sql);
+            
         PreparedStatement stmt = null;
         ResultSet rs = null;    
         try(PreparedStatement st = conn.prepareStatement(sql))
         {
             rs = st.executeQuery();
-            //conn.commit();
         }
         catch(SQLException ex)
         {
-            //conn.rollback();
             Log.Error("SQL error: " + ex.getMessage());
             rs = null;
         }
 
-        return rs;
+        if(rs == null)
+        {
+            dt = new DataTable();
+            return dt;
+        }
+        String columnNames = "";
+        try
+        {
+            ResultSetMetaData rsmd = rs.getMetaData();
+            for(int i = 1; i <= rsmd.getColumnCount(); i++)
+                columnNames += (rsmd.getColumnName(i) + ",");
+            
+            columnNames = columnNames.substring(0, columnNames.length() - 1);   // remove last comma
+            dt = new DataTable(columnNames);
+
+            ArrayList<Object> row = new ArrayList<Object>(rsmd.getColumnCount());
+            LinkedList<ArrayList<Object>> rows = new LinkedList<ArrayList<Object>>();
+            for(int i = 1; i <= rsmd.getColumnCount(); i++)
+                row.add("");
+            while(rs.next())
+            {
+                for(int i = 1; i <= rsmd.getColumnCount(); i++)
+                    row.set(i-1, rs.getObject(i));
+                
+                rows.add(row);
+            }
+
+            dt.addAll(rows);
+        }
+        catch(SQLException ex) 
+        { 
+            Log.Error(ex.getMessage()); 
+            dt = new DataTable();
+        }
+
+        return dt;
     }
 
     static Boolean hasSqlInjection(String parameter)
@@ -104,48 +138,59 @@ public class Database {
     public static DataTable getTable(String tableName)
     {
         DataTable dt = null;
-        String columnNames = "";
+        if(hasSqlInjection(tableName))
+        {
+            Log.Info("Sql injection occured: " + tableName);
+            return new DataTable();
+        }
         String sql_query = String.format(SQL_select, "*", tableName, "1=1", "1");
-        System.out.println(tableName);
+        dt = Database.ExecuteSelect(sql_query);
+        
+        return dt;
+    }
 
-        ResultSet rs = Database.ExecuteSelect(sql_query);
-        System.out.println(rs == null);
-        if(rs == null)
+    public static DataTable getTable(String tableName, String columnList)
+    {
+        DataTable dt = null;
+        if(hasSqlInjection(tableName))
         {
-            dt = new DataTable();
-            return dt;
+            Log.Info("Sql injection occured: " + tableName);
+            return new DataTable();
         }
-        try
+        else if(hasSqlInjection(columnList))
         {
-            ResultSetMetaData rsmd = rs.getMetaData();
-            System.out.println(rsmd.getColumnCount());
-            for(int i = 0; i < rsmd.getColumnCount(); i++)
-                columnNames += (rsmd.getColumnName(i) + ",");
-            
-            System.out.println("Columns: ");
-            System.out.println(columnNames);
-            columnNames = columnNames.substring(0, columnNames.length() - 1);   // remove last comma
-            dt = new DataTable(columnNames);
-
-            System.out.println("On create: \n");
-            System.out.println(dt);
-
-            ArrayList<Object> row = new ArrayList<Object>(rsmd.getColumnCount());
-            LinkedList<ArrayList<Object>> rows = new LinkedList<ArrayList<Object>>();
-            for(int i = 0; i < rsmd.getColumnCount(); i++)
-                row.add("");
-            while(rs.next())
-            {
-                System.out.println(rs.getObject(0));
-                for(int i = 0; i < rsmd.getColumnCount(); i++)
-                    row.set(i, rs.getObject(i));
-                
-                rows.add(row);
-            }
-
-            dt.addAll(rows);
+            Log.Info("Sql injection occured: " + columnList);
+            return new DataTable();
         }
-        catch(SQLException ex) { Log.Error(ex.getMessage()); }
+        
+        String sql_query = String.format(SQL_select, columnList, tableName, "1=1", "1");
+        dt = Database.ExecuteSelect(sql_query);
+        
+        return dt;
+    }
+
+    public static DataTable getTable(String tableName, String columnList, String whereCond)
+    {
+        DataTable dt = null;
+        if(hasSqlInjection(tableName))
+        {
+            Log.Info("Sql injection occured: " + tableName);
+            return new DataTable();
+        }
+        else if(hasSqlInjection(columnList))
+        {
+            Log.Info("Sql injection occured: " + columnList);
+            return new DataTable();
+        }
+        else if(hasSqlInjection(whereCond))
+        {
+            Log.Info("Sql injection occured: " + columnList);
+            return new DataTable();
+        }
+        
+        String sql_query = String.format(SQL_select, columnList, tableName, whereCond, "1");
+        dt = Database.ExecuteSelect(sql_query);
+        
         return dt;
     }
 }
